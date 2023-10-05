@@ -92,6 +92,7 @@ Vicky "Did you change the recipe? It's really horrible...
 ->talkVicky2
 
 =talkVicky2
+#vickynotalk
 *"A lot has happened in town lately... do you know something?
 You "A lot has happened in town lately... do you know something about it?"
 ->askVicky

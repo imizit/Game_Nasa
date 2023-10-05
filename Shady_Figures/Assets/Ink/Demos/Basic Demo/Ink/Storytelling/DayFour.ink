@@ -1,7 +1,4 @@
 ===DayFour===
-#fade
+#credits
 #dayfour
-
-#endday
-*@close
 ->END

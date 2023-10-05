@@ -37,6 +37,7 @@ He starts to drink.
 Spike "Thank you, I needed that
 #spiketalk #spikenormal
 ~ Points = Points + 1
+*@Talk
 ->TalkSpike
 
 =BadSpike
@@ -48,7 +49,7 @@ Spike "Tastes like shit... #spikeangry
 ->TalkSpike
 
 =TalkSpike
-*@Talk
+#spikenotalk
 -
     * Heard you and Olivia are having some problems...
     You "I've heard you and Olivia are having some problems.
@@ -139,6 +140,7 @@ Spike sips the last liquor left in the glass, it's difficult to understand his e
      
 === Drinks2 ===
 #drinks
+#norecipe
     *@Good
     You serve the drink again, you put a bit more liquor this time, maybe it'll help him open up.
     Spike empties the glass in one shot

@@ -3,7 +3,6 @@ INCLUDE Storytelling\DayThree.ink
 INCLUDE Storytelling\DayTwo.ink
 INCLUDE Storytelling/DayFour.ink
 
-
 ->DayOne
 === DayOne ===
 VAR rightDrink = "Carrot"
@@ -76,18 +75,19 @@ Charlie seems tired, his usual joyful personality and chattiness isn't coming ou
     Charlie sips his drink slowly, but he stops as soon as he can taste it
     #charlietired
     Charlie "Did you change some ingredients?... It's not that good... Anyway I'll drink it...
-    #charlienormal
     -> TalkCharlie
     
 =TalkCharlie
 #charlietalk
     *@Talk
+#charlienotalk
 -
     * "So bad day huh?"
     You "So... bad day at work huh?
     * "You wanna talk about it now?"
     You "You wanna talk about your thoughts mr mysterious guy?
-- Charlie "It's nothing serious really, I just had a hard time delivering a package to the night club, I spent hours there... I swear Spike sometimes can be obnoxious...
+-
+Charlie "It's nothing serious really, I just had a hard time delivering a package to the night club, I spent hours there... I swear Spike sometimes can be obnoxious...
   Charlie "and then my boss had something to say about it of course 
     * "What about Spike?"
     ->Spike
